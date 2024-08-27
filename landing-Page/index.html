@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">Landing page</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="slider">
+            <div class="slider-container">
+                <div class="slide">
+                    <img src="./mockup-654585_1280.jpg" alt="Feature 1">
+                   
+                </div>
+                <div class="slide">
+                    <img src="./software-developer-6521720_1280.jpg" alt="Feature 2">
+                 
+                </div>
+                <div class="slide">
+                    <img src="./ipad-605420_1280.jpg" alt="Feature 3">
+                    
+                </div>
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to MySite</h1>
+            <p>Your journey to excellence starts here.</p>
+            <a href="#services" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="info-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are a team of passionate individuals dedicated to providing top-notch services and solutions. Our mission is to help you achieve your goals with our innovative approach and expertise.</p>
+                    <p>With years of experience in the industry, we strive to stay ahead of the curve by embracing the latest technologies and methodologies. Our diverse team brings a wealth of knowledge and creativity, ensuring that every project we undertake is handled with the utmost care and attention to detail.</p>
+                    <p>We believe in building long-term relationships with our clients through transparency, reliability, and exceptional results. Your success is our success, and we are committed to delivering solutions that not only meet but exceed your expectations.</p>
+                 </div>
+                <div class="about-image">
+                    <img src="./imprint-418594_1280.jpg" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="info-section services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Creating stunning and responsive websites tailored to your needs.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Digital Marketing</h3>
+                    <p>Boosting your online presence with effective marketing strategies.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Consulting</h3>
+                    <p>Providing expert advice to help you make informed business decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="info-section testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p>"MySite transformed our online presence and delivered exceptional results. Highly recommend!"</p>
+                    <cite>- Client 1</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Professional and reliable service. The team at MySite exceeded our expectations."</p>
+                    <cite>- Client 2</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Outstanding support and innovative solutions. MySite is our go-to partner."</p>
+                    <cite>- Client 3</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="info-section contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MySite. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "Rk24k0iswdEhg5MXF",
+  });
+})();
+</script>
+    <script src="scripts.js"></script>
+</body>
+</html>
